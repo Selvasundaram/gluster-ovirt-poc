@@ -1,10 +1,10 @@
 package org.ovirt.engine.core.vdsbroker.glusterbroker;
 
-import org.ovirt.engine.core.common.glustercommands.DeleteGlusterVolumeVDSParameters;
+import org.ovirt.engine.core.common.glustercommands.GlusterVolumeVDSParameters;
 
-public class DeleteGlusterVolumeVDSCommand extends GlusterBrokerCommand<DeleteGlusterVolumeVDSParameters> {
+public class DeleteGlusterVolumeVDSCommand extends GlusterBrokerCommand<GlusterVolumeVDSParameters> {
 
-    public DeleteGlusterVolumeVDSCommand(DeleteGlusterVolumeVDSParameters parameters) {
+    public DeleteGlusterVolumeVDSCommand(GlusterVolumeVDSParameters parameters) {
         super(parameters);
     }
 
